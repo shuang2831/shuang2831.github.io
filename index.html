@@ -34,7 +34,14 @@
         text-decoration: none;
     }
 
-    ul.topnav li a:hover:not(.active) {background-color: #111;}
+    ul.topnav li a:hover:not(.active) {
+        color: #d6d6d6;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        /* ...and now for the proper property */
+        transition:.5s;}
 
     ul.topnav li a.active {}
 
@@ -67,14 +74,16 @@
     <div id='nav'>
         <img src="lunekoLogo.png" id="logo" />
         <ul class="topnav">
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="/reactive-chess/index.html">GAME</a></li>
             <li><a href="#contact">Contact</a></li>
             <li class="right"><a href="#about">About</a></li>
         </ul>
     </div>
 
-    <div style="padding:0 16px;">
+    <div style="padding:0 16px; vertical-alight: center; horizontal-align: center; font-size: 100px">
+
+        <h2>COMING SOON</h2>
 
     </div>
 
